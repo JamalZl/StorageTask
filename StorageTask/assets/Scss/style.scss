@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(197, 171, 204);
+}
+
+.container {
+    nav {
+        position: relative;
+
+        .container-fluid {
+            .navbar-collapse {
+                .icon {
+                    i {
+                        font-size: 30px;
+                    }
+                    .dropdown-menu {
+                        width: 320px;
+                        height: 650px;
+                        background-color: white;
+                        position: absolute;
+                        right: 0%;
+                        z-index: 1;
+                        display: none;
+                        transition: 0.7s;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .row {
+        .cards {
+            margin-top: 30px;
+
+            .card {
+                img {
+                    width: 170px;
+                }
+            }
+        }
+    }
+}
